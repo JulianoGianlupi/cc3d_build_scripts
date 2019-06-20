@@ -16,7 +16,7 @@ rem c:\miniconda64\python .\win_cc3d_builder.py  -p D:/install_projects/%version
 
 call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86
 
-c:\Miniconda3\python win_cc3d_builder.py  -p D:/install_projects/%version%-32bit -s D:/CC3D_PY3_GIT  -i D:/CC3D_FILES_SVN/binaries/%version%/windows -v %version%.0 --config=config_32bit.json
+C:\Users\jferrari\AppData\Local\Continuum\anaconda3\envs\conda_2020\python win_cc3d_builder.py  -p D:/install_projects/%version%-32bit -s D:/CC3D_PY3_GIT  -i D:/CC3D_FILES_SVN/binaries/%version%/windows -v %version%.0 --config=config_32bit.json
 
 rem call "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x86
 
